@@ -36,20 +36,3 @@ async function invokeAction({ action, id, name, email, phone }) {
 }
 
 invokeAction(argv);
-
-// contact.listContacts().then(console.table).catch(console.error);
-
-// contact
-//   .getContactById("8af72763-58a8-4bba-b03c-9a3bb3257be4")
-//   .then(console.log)
-//   .catch(console.error);
-
-// contact
-//   .removeContact("8af72763-58a8-4bba-b03c-9a3bb3257be4")
-//   .then(console.log)
-//   .catch(console.error);
-
-// contact
-//   .addContact("Sonya", "Sonya@gmail.com", "0993936424")
-//   .then(console.log)
-//   .catch(console.error);
